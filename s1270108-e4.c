@@ -25,6 +25,15 @@ int main(){
     }
 
     printf("Heads: %d,Tails: %d\n",he,ta);
+    
+    if(he>ta){
+    printf("%s won!\n",name);
+}
+
+    else{
+       printf("%s lost!\n",name);  
+    }
+
 
     return 0;
 }
