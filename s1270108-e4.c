@@ -6,9 +6,14 @@
 
 int main(){
     int i,he=0,ta=0;
+    char name[30];
 
     srand((unsigned int)time(NULL));
-
+    
+    printf("Who are you?\n");
+    printf(">");
+    scanf("%s,name");
+    printf("Hello, %s\n",name);
 
     printf("Tossing a coin...\n");
 
